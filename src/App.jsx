@@ -1,9 +1,12 @@
+import Footer from "./components/Footer"
+import Header from "./components/Header"
 
 function App() {
 
   return (
-    <div className='font-bold w-full flex  items-center justify-center'>
-     <div>Hello world!</div>
+    <div className='flex flex-col'>
+     <Header/>
+     <Footer/>
     </div>
   )
 }
